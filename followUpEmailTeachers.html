@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+<style>
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 35%;
+}
+  th, td {
+    padding: 10px;
+    text-align: center;
+}
+</style>
+  </head>
+  <body>
+    <p>Hello from the SATeam about <b><?= studentName?></b> for this follow data request!</p>
+
+    <p>Would you please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgxk689hw4g2cl1sMgWpQOMe6cGV86Ns1i6ZUr2iG3pXRcNQ/viewform">this quick form</a> to help us get <b>a snapshot about how <?= studentName?> has been progressing in your course?</b></p>
+
+    <p>This is our 6-week followup request so you should be reflecting specifically on changes/improvements or concerns that you have observed since the last SATeam meeting.</p>
+
+    <p>Please refer to the LA ID listed below where prompted.</p>
+<table>
+    <tr>
+    <th>Student</th>
+    <th>LAID</th>
+  </tr>
+  <tr>
+    <td><?= studentName?></td>
+    <td><?= LAID?></td>
+  </tr>
+  </table>
+
+  <p>We appreciate your participation <b> by 8am on <?= dueDate?> </b> so we can have feedback to provide to the parents at the upcoming follow up SATeam meeting.</p>
+
+  </body>
+</html>

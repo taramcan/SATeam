@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+<style>
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 35%;
+}
+  th, td {
+    padding: 10px;
+    text-align: center;
+}
+</style>
+  </head>
+  <body>
+    <p>Greetings!</p>
+
+    An initial SATeam Referral has been made for <?= studentName?>.  You can see details about this referral, by locating this student's SAT folder <a href="https://drive.google.com/drive/folders/1j8XVWWm9coD5kUuQw2iJFIAvMqMvzRi-">our shared drive</a>.
+
+    <p>Would you please call the student in to complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSdsvKMfW81ofWYLFqveDtfedeVfH5TqrgopiVpts9O1LDED8A/viewform">this student interview</a>
+    </p>
+
+    <p>Please refer to the LA ID listed below where prompted.</p>
+<table>
+    <tr>
+    <th>Student</th>
+    <th>LAID</th>
+  </tr>
+  <tr>
+    <td><?= studentName?></td>
+    <td><?= LAID?></td>
+  </tr>
+  </table>
+
+  
+  <p>We appreciate your participation <b> by <?= dueDate?> </b> so we can have feedback to provide to the parents at the SAT meeting which will be held on <?= meetingDate?>.</p>
+
+  <p>Here is a template of the what you can send to the student</p>
+
+  <p>Dear <?= studentName?>,</p>
+
+  <p>I'd like to schedule about 15 minutes during your <?= SH?> study hall to talk about your progress in your courses. When you come to this meeting, would you please bring some samples of your work, both work that demonstrates where you've been successful and work that demonstrates areas where you think you could improve?<p>
+
+    <p>Please respond to this email with the best time for you to come.  I'll send out a calendar invite as soon as I hear from you.</p>
+
+  </body>
+</html>
