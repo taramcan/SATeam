@@ -1,5 +1,5 @@
 class Student{
-    constructor(initialRefDate, initialReferrerCat, intialReferrerFirst, initialReferrerLast, firstName, lastName, gradYear, dob, laId, studentEmail, hrTeach, counselor, mHP, englishTeach, mathTeach, scienceTeach, socialStudiesTeach, worldLanguageTeach, elecTeach1, elecTeach2, elecTeach3, elecTeach4, studyHallPer, parentFirst, parentLast, parentEmail, doc300RId, generation, status){
+    constructor(initialRefDate, initialReferrerCat, intialReferrerFirst, initialReferrerLast, firstName, lastName, gradYear, dob, laId, studentEmail, hrTeach, counselor, mHP, englishTeach, mathTeach, scienceTeach, socialStudiesTeach, worldLanguageTeach, elecTeach1, elecTeach2, elecTeach3, elecTeach4, studyHallPer, parentFirst, parentLast, parentEmail, doc300RId, lastMtgDate, generation, status){
         this.initialRefDate = initialRefDate;
         this.initialReferrerCat = initialReferrerCat;
         this.intialReferrerFirst = intialReferrerFirst;
@@ -17,6 +17,7 @@ class Student{
         this.mathTeach = mathTeach;
         this.scienceTeach = scienceTeach;
         this.socialStudiesTeach = socialStudiesTeach;
+        this.worldLanguageTeach = worldLanguageTeach;
         this.elecTeach1 = elecTeach1;
         this.elecTeach2 = elecTeach2;
         this.elecTeach3 = elecTeach3;
@@ -26,6 +27,7 @@ class Student{
         this.parentLast = parentLast;
         this.parentEmail = parentEmail;
         this.doc300RId = doc300RId;
+        this.lastMtgDate = lastMtgDate;
         this.generation = generation;
         this.status = status;
     }
