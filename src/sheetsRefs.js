@@ -1,11 +1,20 @@
-const coversheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('SAT Coversheet');
-const dataFor300R = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('For 300R');
-const initialReferralSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Initial Referral');
-const counsInterviewSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Academic Counselor Interview');
-const nurseInputSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Nurse Screeners');
-const teacherInputSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Teacher Input');
-const meetingPrefSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Teacher meeting preferences');
-const fsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Imported F/S List');
+const sheet1 = "SAT Coversheet";
+const sheet5 = "For 300R";
+const sheet3 = "Initial Referral";
+const sheet4 = "Academic Counselor Interview";
+const sheet6 = "Nurse Screeners";
+const sheet2 = "Teacher Input";
+const sheet8 = "Teacher meeting preferences";
+const sheet7 = "Imported F/S List";
+
+const coversheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet1);
+const dataFor300R = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet5);
+const initialReferralSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet3);
+const counsInterviewSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet4);
+const nurseInputSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet6);
+const teacherInputSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet2);
+const meetingPrefSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet8);
+const fsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheet7);
 
 const coverData = coversheet.getDataRange().getValues();
 const form300RData = dataFor300R.getDataRange().getValues();
