@@ -1,0 +1,1 @@
+//have to arguments in the getter function (todaysDate, Student.generation)

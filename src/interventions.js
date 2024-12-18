@@ -10,7 +10,7 @@ var counsInt7 = counsData[0][28].split(/\[(.+?)\]/g)[1];
 var counsInt8 = counsData[0][29].split(/\[(.+?)\]/g)[1];
 var counsInt9 = counsData[0][30].split(/\[(.+?)\]/g)[1];
 var counsInt10 = counsData[0][31].split(/\[(.+?)\]/g)[1];
-//regex for counselor interventions from counselor questionaires
+//regex for teacher interventions from teacher questionaires
 //18 teacher interventions begin at column 9 through column 26
 var teachInt1 = teacherData[0][9].split(/\[(.+?)\]/g)[1];
 var teachInt2 = teacherData[0][10].split(/\[(.+?)\]/g)[1];
